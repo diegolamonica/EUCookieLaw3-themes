@@ -2,7 +2,7 @@
 # About this repository
 
 **This repository contain the public styles and design guideline for EUCookieLaw.** 
-The main repository is named [EUCookieLaw3](https://github.com/diegolamonica/EUCookieLaw3-wp).
+The main repository is named [EUCookieLaw3](https://github.com/diegolamonica/EUCookieLaw3).
 You can find the WordPress version either on [GitHub](https://github.com/diegolamonica/EUCookieLaw3-wp) 
 and WordPress Plugins Repository.
 
