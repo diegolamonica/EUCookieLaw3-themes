@@ -113,3 +113,21 @@ the component:
 
 To disallow any kind of conflict with other rules, it's recommended to prefix all the CSS rules for the modal with 
 the container class `eucookielaw-modal`.
+
+# Share your style 
+
+If you want to share your custom theme for EUCookieLaw3, you are free to create your own theme but remeber to:
+
+1. Add copyright row at the top of the theme informing about Theme name, your name and your website, the Project MUST be always `EUCookieLaw3`, the version number of your theme and the License model, like:
+   ```css
+    /*
+     * Theme: Bootstrap-like
+     * Author: Diego La Monica (https://diegolamonica.info)
+     * Project: EUCookieLaw3
+     * Version: 20180521
+     * Copyright (c) 2018 Diego La Monica CC-BY-NC
+     */
+	``` 
+2. Create all the required rules (as described above).
+
+3. Create a pull request for this repository
