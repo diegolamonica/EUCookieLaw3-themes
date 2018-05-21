@@ -97,7 +97,7 @@ the component:
 * `dialog-content` is the dialog. It has the class `modal-content`
 
 * `heaer-container` is the header of the modal. It has the class `modal-header` and has a non predictable HTML element 
-  due is configured through the [EUCookieLaw Configuration Builder](#). However the class of the inner HTML element is
+  due is configured through the [EUCookieLaw Configuration Builder](https://diegolamonica.info/tools/eucookielaw/builder/). However the class of the inner HTML element is
   `modal-title`.
    
 * `body-container` has a class `mdodal-body`
