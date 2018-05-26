@@ -109,7 +109,7 @@
 		width: auto;
 		height: auto;
 		-webkit-border-radius: 0;
-		-mox-border-radius: 0;
+		-moz-border-radius: 0;
 		border-radius: 0;
 		margin:auto;
 		text-align: left;

@@ -119,6 +119,34 @@ the component:
 To disallow any kind of conflict with other rules, it's recommended to prefix all the CSS rules for the modal with 
 the container class `eucookielaw-modal`.
 
+## Differences on the element
+
+In the following tables will be shown the differences between consent dialog opened and closed and all the related elements 
+on the page.
+
+### `body`
+
+ | attribute | Opened | Closed |
+ |-----------|--------|--------|
+ | class | `.modal-open` | `<any>` |
+ 
+### `.eucookielaw-modal` element
+
+ | attribute | Opened | Closed |
+ |-----------|--------|--------|
+ | class | `.in` | `<any>` |
+
+
+### `[data-eucookielaw-id="cookie-group-list"]` element
+
+The list of treatments will result expanded if who has configured the dialog sets the [`dialogCookieGroupsListDefaultIsHidden`](https://github.com/diegolamonica/EUCookieLaw3#dialogcookiegroupslistdefaultishidden) to `true` else
+the list will become expanded once the user will click on the `Review consents` button.
+
+ | attribute | Collapsed | Expanded |
+ |-----------|--------|--------|
+ | class | `.collapsed` | `.expanded` |
+ 
+
 # Share your style 
 
 If you want to share your custom theme for EUCookieLaw3, you are free to create your own theme but remeber to:
