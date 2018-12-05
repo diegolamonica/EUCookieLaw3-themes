@@ -72,6 +72,7 @@ body.modal-open .eucookielaw-modal{
    position: relative;
    margin:0;
    width: auto;
+	transform: translate(0,0) !important;
 }
 
 .eucookielaw-modal .modal-body {
